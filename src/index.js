@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './common.css';
 import reportWebVitals from './reportWebVitals';
-import TodoList from './components/step04/TodoList';
+import FormEx from './components/step07/FormEx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,7 +14,10 @@ root.render(
     {/* <InputExam /> */}
     {/* <CountEx /> */}
     {/* <CheckEx /> */}
-    <TodoList />
+    {/* <TodoList /> */}
+    {/* <ProfileEx /> */}
+    {/* <TempEx /> */}
+    <FormEx />
   </React.StrictMode>
 );
 

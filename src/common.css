@@ -110,6 +110,12 @@ hr {
    font-weight: 500;
 }
 
+.TodoList__layout p span {
+   font-size: 20px;
+   font-weight: 400;
+   color: #555;
+}
+
 .TodoList__layout button {
    border: 0;
    font-size: 16px;
@@ -129,4 +135,169 @@ hr {
 
 .TodoList__flex {
    display: flex;
+}
+
+/* Profile */
+.Profile__layout {
+   text-align: center;
+   padding: 30px;
+   border-top: 1px solid #ddd;
+   box-sizing: border-box;
+}
+
+.Profile__layout h2 {
+   margin: 0;
+}
+
+.Profile__layout h3 {
+   margin: 0;
+}
+
+.Profile__layout h3 span {
+   margin: 0;
+   font-weight: 500;
+}
+
+.Profile__layout button {
+   margin: 0 5px;
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.Profile__layout button:hover {
+   border: 1px solid green;
+   color: green;
+   transition: all 0.3s;
+}
+
+.User__Profile__layout {
+   text-align: center;
+   width: 500px;
+   padding: 0px;
+   border: 1px solid #ddd;
+   margin: 50px auto;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 10px #ddd;
+   border-radius: 10px;
+}
+
+.User__Profile__layout button {
+   margin: 0 5px;
+   padding: 10px 15px;
+   font-size: 16px;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.User__Profile__layout button:hover {
+   border: 1px solid forestgreen;
+   color: forestgreen;
+   transition: all 0.3s;
+}
+
+/* TempEx */
+.Temp__layout {
+   text-align: left;
+   width: 500px;
+   margin: 50px auto;
+   box-sizing: border-box;
+}
+
+.Temp__layout h1 {
+   margin: 0;
+}
+
+.Temp__layout h2 {
+   margin: 0;
+}
+
+.Temp__layout p {
+   font-size: 20px;
+}
+
+.TempInput__layout {
+   text-align: left;
+   width: 100%;
+   padding: 30px;
+   border: 1px solid #ddd;
+   margin: 15px auto;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 10px #ddd;
+   border-radius: 10px;
+}
+
+.TempInput__layout input[type="number"] {
+   height: 36px;
+   font-size: 16px;
+   color: #555;
+   padding: 0 10px;
+   border: 1px solid #aaa;
+   border-radius: 5px;
+}
+
+.TempInput__layout span {
+   display: inline-block;
+   margin-left: 8px;
+}
+
+.TempRadio__layout {
+   text-align: left;
+   width: 100%;
+   padding: 30px;
+   border: 1px solid #ddd;
+   margin: 15px auto;
+   box-sizing: border-box;
+   box-shadow: 5px 5px 10px #ddd;
+   border-radius: 10px;
+}
+
+.TempRadio__layout label {
+   margin: 0 10px;
+   cursor: pointer;
+   font-size: 18px;
+}
+
+/* FormEx */
+.FormEx__layout {
+   width: 500px;
+   margin: 50px auto;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+   padding: 30px;
+}
+.FormEx__layout p {
+   font-size: 18px;
+   font-weight: 400;
+}
+
+.FormEx__layout input[type="text"] {
+   width: 160px;
+   height: 36px;
+   box-sizing: border-box;
+   padding: 0 10px;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.FormEx__layout select {
+   width: 160px;
+   height: 36px;
+   box-sizing: border-box;
+   padding: 0 10px;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   font-size: 16px;
+   font-weight: 400;
 }

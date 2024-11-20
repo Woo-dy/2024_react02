@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import './common.css';
 import reportWebVitals from './reportWebVitals';
+import TodoList from './components/step04/TodoList';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <NumberCounter /> */}
+    {/* <NumberCounter2 /> */}
+    {/* <InputExam /> */}
+    {/* <CountEx /> */}
+    {/* <CheckEx /> */}
+    <TodoList />
   </React.StrictMode>
 );
 

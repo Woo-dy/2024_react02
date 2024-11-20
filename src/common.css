@@ -1,0 +1,132 @@
+/* common */
+hr {
+   margin: 30px 0;
+}
+
+/* step01 / NumberCounter.jsx */
+.btn_layout {
+   text-align: center;
+}
+
+.btn_layout Button {
+   margin: 0 5px;
+}
+
+/* step01 / NumberCounter2.jsx */
+.btn_layout2 {
+   text-align: center;
+}
+
+.btn_layout2 Button {
+   margin: 10px 5px;
+}
+
+/* step02 / InputExam.jsx */
+.InputExam {
+   text-align: center;
+   margin: 20px auto;
+}
+
+.input__Text {
+   width: 300px;
+   height: 36px;
+   padding: 0 10px;
+   font-size: 16px;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+   margin: 10px 0;
+}
+
+#outlined-basic {
+   width: 300px;
+   height: 36px;
+   box-sizing: border-box;
+   margin: 10px 0;
+}
+
+#standard-basic {
+   width: 300px;
+   height: 36px;
+   box-sizing: border-box;
+   margin: 10px 0;
+}
+
+
+.count__layout {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.count__layout h2 {
+   margin: 0 20px;
+}
+
+.count__layout button {
+   min-width: 40px;
+   width: 40px;
+   height: 40px;
+   line-height: 40px;
+   font-size: 24px;
+   font-weight: 100;
+}
+
+.Check__layout {
+   text-align: center;
+   margin: 30px auto;
+}
+
+/* TodoList */
+.TodoList__layout {
+   width: 600px;
+   margin: 50px auto;
+   border: 1px solid #ddd;
+   border-radius: 10px;
+   box-shadow: 5px 5px 10px #ddd;
+   padding: 30px;
+   box-sizing: border-box;
+}
+
+.TodoList__layout h1 {
+   margin: 0;
+}
+
+.TodoList__layout ul li {
+   margin-bottom: 15px;
+   font-size: 20px;
+}
+
+.TodoList__layout input {
+   border: 1px solid #aaa;
+   font-size: 16px;
+   height: 36px;
+   box-sizing: border-box;
+   padding: 0 10px;
+   border-radius: 5px;
+}
+
+.TodoList__layout p {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.TodoList__layout button {
+   border: 0;
+   font-size: 16px;
+   padding: 10px 15px;
+   height: 36px;
+   font-weight: 500;
+   cursor: pointer;
+   margin-left: 10px;
+   border-radius: 5px;
+   border: 1px solid #aaa;
+}
+
+.TodoList__layout button:hover {
+   background-color: #ddd;
+   transition: all 0.3s;
+}
+
+.TodoList__flex {
+   display: flex;
+}

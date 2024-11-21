@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './common.css';
 import reportWebVitals from './reportWebVitals';
-import MemoTest03 from './components/step09/MemoTest03';
-import MemoTest04 from './components/step09/MemoTest04';
+import CallBackTest02 from './components/step10/CallBackTest02';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    // <React.StrictMode>
@@ -27,7 +26,9 @@ root.render(
    // <MemoTest01 />
    // <MemoTest02 />
    // <MemoTest03 />
-   <MemoTest04 />
+   // <MemoTest04 />
+   // <CallBackTest01 />
+   <CallBackTest02 />
 );
 
 // If you want to start measuring performance in your app, pass a function

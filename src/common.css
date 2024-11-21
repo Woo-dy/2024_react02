@@ -461,3 +461,54 @@ hr {
    margin-top: 10px;
    cursor: pointer;
 }
+
+/* CallBackTest01__layout */
+.CallBackTest01__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.CallBackTest01__layout div {
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.CallBackTest01__layout div button {
+   padding: 5px 4px 5px 10px;
+   font-size: 16px;
+   cursor: pointer;
+   background-color: #000;
+   color: #fff;
+}
+
+
+.CallBackTest02__layout {
+   text-align: left;
+   width: 500px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+   display: flex;
+   justify-content: space-between;
+}
+
+.CallBackTest02__layout input {
+   width: calc(100% - 215px);
+   height: 36px;
+   box-sizing: border-box;
+   font-size: 16px;
+   padding: 0 10px;
+}
+
+.CallBackTest02__layout button {
+   width: 200px;
+   height: 36px;
+   box-sizing: border-box;
+   cursor: pointer;
+   font-size: 16px;
+}

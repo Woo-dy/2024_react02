@@ -4,6 +4,7 @@ import './index.css';
 import './common.css';
 import reportWebVitals from './reportWebVitals';
 import MemoTest03 from './components/step09/MemoTest03';
+import MemoTest04 from './components/step09/MemoTest04';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    // <React.StrictMode>
@@ -25,7 +26,8 @@ root.render(
    // <EffectTest04 />
    // <MemoTest01 />
    // <MemoTest02 />
-   <MemoTest03 />
+   // <MemoTest03 />
+   <MemoTest04 />
 );
 
 // If you want to start measuring performance in your app, pass a function

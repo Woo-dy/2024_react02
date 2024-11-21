@@ -431,5 +431,33 @@ hr {
 }
 
 .MemoTest03__layout span {
-   font-size: 16px;;
+   font-size: 16px;
+}
+
+.MemoTest04__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.MemoTest04__layout p {
+   font-size: 20px;
+   margin-top: 10px;
+}
+
+.MemoTest04__layout input {
+   padding: 5px 10px;
+   font-size: 16px;
+   margin-top: 10px;
+   border: 1px solid #aaa;
+}
+
+.MemoTest04__layout button {
+   padding: 5px 10px;
+   font-size: 16px;
+   margin-top: 10px;
+   cursor: pointer;
 }

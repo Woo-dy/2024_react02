@@ -9,7 +9,7 @@ function MemoTest02_1(props) {
    const filterItem = useMemo(() => {
       console.log("useMemo 안")
       return items.filter((k) => k.toLowerCase().includes(query.toLowerCase()));
-   }, [query]);
+   }, []);
 
    return (
       <div className='MemoTest02_1__layout'>

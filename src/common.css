@@ -389,3 +389,47 @@ hr {
    padding: 30px;
    border: 1px solid #ddd;
 }
+
+.MemoTest02_1__layout ul {
+   padding: 10px 0;
+}
+
+.MemoTest02_1__layout ul li {
+   list-style-position: inside;
+   list-style-type: circle;
+   margin: 5px 0px 5px 0px;
+}
+
+.MemoTest02_2__layout ul {
+   padding: 10px 0;
+}
+
+.MemoTest02_2__layout ul li {
+   list-style-position: inside;
+   list-style-type: circle;
+   margin: 5px 0px 5px 0px;
+}
+
+.MemoTest03__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.MemoTest03__layout h3 {
+   margin-bottom: 6px;
+}
+
+.MemoTest03__layout input[type="number"] {
+   height: 36px;
+   box-sizing: border-box;
+   padding: 0px 10px;
+   border: 1px solid #aaa;
+}
+
+.MemoTest03__layout span {
+   font-size: 16px;;
+}

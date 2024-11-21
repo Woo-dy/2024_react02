@@ -3,22 +3,28 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './common.css';
 import reportWebVitals from './reportWebVitals';
-import FormEx from './components/step07/FormEx';
-
+import MemoTest02 from './components/step09/MemoTest02';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    {/* <App /> */}
-    {/* <NumberCounter /> */}
-    {/* <NumberCounter2 /> */}
-    {/* <InputExam /> */}
-    {/* <CountEx /> */}
-    {/* <CheckEx /> */}
-    {/* <TodoList /> */}
-    {/* <ProfileEx /> */}
-    {/* <TempEx /> */}
-    <FormEx />
-  </React.StrictMode>
+   // <React.StrictMode>
+   //    <App />
+   //    <NumberCounter />
+   //    <NumberCounter2 />
+   //    <InputExam />
+   //    <CountEx />
+   //    <CheckEx />
+   //    <TodoList />
+   //    <ProfileEx />
+   //    <TempEx />
+   //    <FormEx />
+   //    <EffectTest01 />
+   //    <EffectTest02 />
+   //    <EffectTest03 />
+   //    <EffectTest04 />
+   //    <MemoTest01 />
+   // </React.StrictMode>
+
+   <MemoTest02 />
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -513,15 +513,6 @@ hr {
    font-size: 16px;
 }
 
-/* RefTest01__layout */
-.RefTest01__layout {
-
-}
-
-.RefTest01-layout {
-   
-}
-
 .RefTest01__layout {
    text-align: left;
    width: 600px;
@@ -677,4 +668,63 @@ hr {
    font-size: 16px;
    padding: 0 10px;
    margin-top: 10px;
+}
+
+/* ReducerTest01__layout */
+.ReducerTest01__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.ReducerTest01__layout button {
+   margin: 10px 0 0 0;
+   padding: 0 10px;
+   height: 36px;
+   box-sizing: border-box;
+   cursor: pointer;
+   font-size: 16px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+/* ReducerTest02__layout */
+.ReducerTest02__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.ReducerTest02__layout div {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.ReducerTest02__layout input {
+   margin: 10px 0 0 0;
+   padding: 0 10px;
+   height: 32px;
+   box-sizing: border-box;
+   cursor: pointer;
+   font-size: 16px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+.ReducerTest02__layout button {
+   margin: 10px 0 0 0;
+   padding: 0 10px;
+   height: 32px;
+   box-sizing: border-box;
+   cursor: pointer;
+   font-size: 16px;
+   margin-right: 10px;
+   cursor: pointer;
 }

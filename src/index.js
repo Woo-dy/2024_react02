@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import './common.css';
 import reportWebVitals from './reportWebVitals';
-import ContextTest from './components/step14/ContextTest';
+import ReducerTest02 from './components/step15/ReducerTest02';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
    // <React.StrictMode>
@@ -36,7 +36,9 @@ root.render(
    // <RefTest05 />
    // <UseIdTest />
    // <ContextTest />
-   <ContextTest />
+   // <ContextTest />
+   // <ReducerTest01 />
+   <ReducerTest02 />
 );
 
 // If you want to start measuring performance in your app, pass a function

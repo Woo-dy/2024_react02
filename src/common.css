@@ -512,3 +512,169 @@ hr {
    cursor: pointer;
    font-size: 16px;
 }
+
+/* RefTest01__layout */
+.RefTest01__layout {
+
+}
+
+.RefTest01-layout {
+   
+}
+
+.RefTest01__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.RefTest01__layout p {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.RefTest01__layout button {
+   margin: 0px 10px 0px 0px;
+   padding: 5px 15px;
+   font-size: 16px;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.RefTest01__layout button:hover {
+   border: 1px solid forestgreen;
+   color: forestgreen;
+   transition: all 0.3s;
+}
+
+/* RefTest02__layout */
+.RefTest02__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.RefTest02__layout p {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.RefTest02__layout button {
+   margin: 0px 10px 0px 0px;
+   padding: 5px 15px;
+   font-size: 16px;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.RefTest02__layout button:hover {
+   border: 1px solid forestgreen;
+   color: forestgreen;
+   transition: all 0.3s;
+}
+
+/* RefTest03__layout */
+.RefTest03__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+.RefTest03__layout p {
+   font-size: 16px;
+   margin-bottom: 10px;
+}
+
+.RefTest03__layout button {
+   margin: 0px 10px 0px 0px;
+   padding: 5px 15px;
+   font-size: 16px;
+   background-color: transparent;
+   border: 1px solid #aaa;
+   color: #555;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.RefTest03__layout button:hover {
+   border: 1px solid forestgreen;
+   color: forestgreen;
+   transition: all 0.3s;
+}
+
+/* RefTest04__layout */
+.RefTest04__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+}
+
+/* RefTest05__layout */
+.RefTest05__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+   display: flex;
+   justify-content: space-between;
+}
+
+.RefTest05__layout input {
+   width: calc(100% - 115px);
+   height: 36px;
+   box-sizing: border-box;
+   font-size: 16px;
+   padding: 0 10px;
+}
+
+.RefTest05__layout button {
+   width: 100px;
+   height: 36px;
+   box-sizing: border-box;
+   cursor: pointer;
+   font-size: 16px;
+}
+
+/* UseIdTest__layout */
+.UseIdTest__layout {
+   text-align: left;
+   width: 600px;
+   margin: 50px auto;
+   box-sizing: border-box;
+   padding: 30px;
+   border: 1px solid #ddd;
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: flex-start;
+}
+
+.UseIdTest__layout input {
+   height: 36px;
+   box-sizing: border-box;
+   font-size: 16px;
+   padding: 0 10px;
+   margin-top: 10px;
+}
